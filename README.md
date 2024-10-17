@@ -1,4 +1,4 @@
-# Vite JavaScript project scaffolding
+# Vite JavaScript Template
 
 ![capture](https://github.com/user-attachments/assets/8fbbb328-e0a4-419b-8ec0-da644a0f7948)
 
