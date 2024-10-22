@@ -94,3 +94,17 @@ jobs:
         uses: actions/deploy-pages@v4
 
 ```
+
+Unless you are hosting a user or organization site (&lt;username&gt;.github.io), assure the `base` is configured to your repo name in your vite config:
+
+```js
+// vite.config.js
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/repo-name",
+  build: {
+    root: "src",
+  },
+});
+```
