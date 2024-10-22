@@ -19,6 +19,13 @@ git add -A
 git commit -m "Initial commit"
 ```
 
+Install dependencies: `npm i`
+
+To run a local development server:
+
+- `npm run dev` &mdash; Live reload using Vite
+- `npm run preview` &mdash; Preview build artifact (requires a build)
+
 ### GitHub Actions
 
 Example workflow action to deploy to GitHub pages.
